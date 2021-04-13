@@ -7,8 +7,7 @@ Restaurant managers who are already using food order management systems need a c
 
 
 ## Research
-![Description](Link to Pic)
-* 
+
 ### What is food order management, and how does it work?
 
 Online food ordering management system is a software used to ease the customer’s life. Sometimes we don’t feel like cooking or doesn’t feel like to go to the restaurants, therefore we here propose an Online Food Ordering Management System which can help the customers to get food delivered immediately. This is mostly designed for a single restaurant having various food items at valuable food price. It gives effective way to order our food and almost within no time food will be delivered. Customer, he/she has login form with password in order to secure the information details and then they can select his/her favorite food items, place the order, also mention the quantity and finally can make the payment. When the order is placed, it gets stored in the database of the restaurants and then the staffs go through the orders and processes it efficiently.
@@ -23,7 +22,7 @@ Instead of dealing with phones ringing off the hook, online systems give us a lo
 Even if a dining room is at 100-percent capacity, food order management allows us to provide takeout services as well.
 
 ### Benefits
-![Description](Link to Pic)
+![Description](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/1_Requirements/Benefits.png)
 
 ## Cost and Features
 ![Description](Link to Pic)
@@ -31,7 +30,7 @@ Even if a dining room is at 100-percent capacity, food order management allows u
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT-Sample](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/1_Requirements/swot.png)
 
 # 4W&#39;s and 1&#39;H
 
