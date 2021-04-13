@@ -1,6 +1,8 @@
 # SDLC Activity Based Learning
 
 Visit [Pages for Report -optional](using github.io option)
+![Description](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/food-order-management-01.png)
+![Description](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/Food_ordering_management_02.png)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
