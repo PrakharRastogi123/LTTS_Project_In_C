@@ -3,11 +3,11 @@
 ## High Level Design 
 
 --- TBD Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Link to Pic)
-![HighLevelBehaviouralDiagram](Link to Pic)
+![HighLevelBehaviouralDiagram](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/2_Design/Activity_Diagram.png)
+![HighLevelStructuralDiagram](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/2_Design/ClassDiagram.png)
 
 ## Low Level Design 
 
 --- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
-![FeaturesBehaviouralDiagram](Link to Pic)
+![FeaturesBehaviouralDiagram](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/2_Design/UsecaseDiagram.png)
+![FeaturesLevelStructuralDiagram](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/2_Design/Component_Diagram.png)
