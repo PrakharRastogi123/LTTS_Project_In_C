@@ -48,12 +48,11 @@ Even if a dining room is at 100-percent capacity, food order management allows u
 
 ## Where:
 
-**The process is online, anyone can use the system from anywhere. The only basic requirement is Internet Connectivity. If the food agency is connected to his/her area the food will be delivered to the person's home within a given time. **
+**The process is online, anyone can use the system from anywhere. The only basic requirement is Internet Connectivity. If the food agency is connected to his/her area the food will be delivered to the person's home within a given time.**
 
 ## How:
 
-**This system however can cause problems like delivering of wrong food, spoiled food, improper payment policies, late deliveries, jamming of online server,etc. According to an Express report, if users have even a single bad experience, 33% of  customers say they’d switch to a competitor and 50% have abandoned a purchase due to a poor service experience.
-**
+**This system however can cause problems like delivering of wrong food, spoiled food, improper payment policies, late deliveries, jamming of online server,etc. According to an Express report, if users have even a single bad experience, 33% of  customers say they’d switch to a competitor and 50% have abandoned a purchase due to a poor service experience.**
 
 # Detail requirements
 ## High Level Requirements:
