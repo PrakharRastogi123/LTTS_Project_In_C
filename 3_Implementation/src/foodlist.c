@@ -1,6 +1,6 @@
 #include"Utilities.h"
 
-errno_t foodlist(head *t)
+error_t foodlist(head *t)
 {
 	if(t->start==NULL){
 		return ERROR_NULL_PTR;
