@@ -1,6 +1,5 @@
 # SDLC Activity Based Learning
 
-Visit [Pages for Report -optional](using github.io option)
 ![Description](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/Food_ordering_management_02.png)
 ![Description](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/food-order-management-01.png)
 
@@ -22,8 +21,8 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+`256102` | Prakhar Rastogi  | Feature A, B etc    | X No     | X No   |X No   |X No     
+
 
 ## Challenges Faced and How Was It Overcome
 
