@@ -60,7 +60,7 @@ doc:
 # Build and run the unit tests
 test:$(BUILD)
 	gcc  $(call FixPath,$(TEST_SRC)) $(INC) -o $(call FixPath,$(BUILD)/$(TEST_PROJ_NAME).$(EXEC))
-	./$(call FixPath,$(BUILD)/$(TEST_PROJ_NAME).$(EXEC))
+	./$(TEST_OUTPUT)
 
 
 
