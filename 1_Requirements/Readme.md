@@ -1,4 +1,5 @@
 
+
 # Requirements
 ## Introduction
  COVID-19 has had a significant impact on the hospitality sector. As a result, restaurant managers are paying greater attention to food order management.
@@ -25,10 +26,40 @@ Even if a dining room is at 100-percent capacity, food order management allows u
 ![Description](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/1_Requirements/Benefits.png)
 
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+### Cost On The Basis Of Machine Resources:
+**Time Complexity:** It is defined as the number of times a particular instruction set is executed rather than the total time is taken. It is because the total time took also depends on some external factors like the compiler used, processor’s speed, etc.
+
+**Space Complexity:** It is the total memory space required by the program for its execution.
+
+**Features and Cost:**
+Since we are using singly linked list data structure, so the space complexity is O(n)
+Search an food item: Time Complexity: O(n)
+Access an food item: Time Complexity: O(n)
+Insert an food item: Time Complexity: O(1)
+Delete an food item: Time Complexity: O(1)
+
+### Cost And Features On The Basis Of Market System:
+* Applying the up-to-date technologies is required for such functionalities as simple registration, placing the order, various payment options, delivery time estimation, order tracker, reviews and rates, attractive design and the great search engine. The average development cost to create a food ordering application of medium complexity could be $50 000.
+* Creating web portals, It includes registration and order management. While the restaurant’s administration is responsible for content management and the control panel including financial questions via the web portal. Counting both of these options, the company could pay up to $10 000.
+* The app for couriers is like the one for Uber drivers. We need to include registration, order management, and the status update. It will be enough to support the food delivery app requirements to carry out the order. So the company could spend $15 000 on its.
+
+*Accordingly, the estimated food delivery app development cost could be close to $75,000.*
+
+
+
 ## Defining Our System
-    -- TBD
+**Project Topic:** Food Order Managing System:
+**Abstract:** The user can register and login into the system using his username and password, after successful login, the main menu appears in which user can add the food items from three different food categories that are snacks, main-course and dessert. The food can be added using food ID allotted to each food item given in the food menu, further the quantity of that food item can also be provided. Finally, the order made can be viewed by user or edited by the user, further he can use get bill functionality to get final order amount for payment.
+**Features:**
+* Admin Menu can be accessed by providing username as admin and password as admin123.
+* Admin Menu has functionalities like view recent order, add food items into food menu in different food categories (snacks, main-course, dessert).
+* User can register in as new user providing username and password.
+* User can login by using credentials used for registering.
+* User can view his order.
+* User add food items using food ID followed by quantity.
+* User can confirm his order, or edit it again.
+* Using can get bill for the order , telling the final amount to be paid.
+* User can finally logout after completing the order, or make an new order.
 ## SWOT ANALYSIS
 ![SWOT-Sample](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/1_Requirements/swot.png)
 
@@ -55,11 +86,34 @@ Even if a dining room is at 100-percent capacity, food order management allows u
 **This system however can cause problems like delivering of wrong food, spoiled food, improper payment policies, late deliveries, jamming of online server,etc. According to an Express report, if users have even a single bad experience, 33% of  customers say they’d switch to a competitor and 50% have abandoned a purchase due to a poor service experience.**
 
 # Detail requirements
-## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+## High Level Requirements: 
+-- ID  | Description | Status (Implemented/Future)|
+   --- |-------------|----------------------------|
+   HR01 | New User Registration using username and password| Implemented
+   HR02 | User Login using username and password| Implemented
+   HR03 | Admin can Login using username as admin and password as admin123| Implemented
+   HR04 | Admin can view recent previous order| Implemented
+   HR05 | Admin can view all previous orders| Future
+   HR06 | Admin can add new food items to food menu| Implemented
+   HR07 | Admin can view menu and edit it| Implemented
+   HR08 | Item Deletion| Future
+   HR09| After User Login, user can view his order| Implemented
+   HR10| User can add food items from categories: Snacks, Main-course, and Dessert in his order| Implemented
+   HR11| Food item can be added using food ID along with quantity| Implemented
+   HR12| User can further edit his order, or add other categories items before confirming his order| Implemented
+   HR13| User can confirm his order and use get bill functionality to get overall amount to pay | Implemented
+   HR14| User data is stored after program ends| Future
+   HR15| Multiple user data is stored| Future
+
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+-- ID  | Description | Status (Implemented/Future)|
+   --- |-------------|----------------------------|
+   LR01 | During login, if username and password are incorrect, the program will display an login error| Implemented
+   LR02 | During Login using Admin username and password opens admin panel| Implemented
+   LR03 | Pointer accessing linked list gets the NULL value, program will show null value error before performing any functions on that pointer | Implemented
+   LR04 | Putting wrong food ID to add in the order, will correct that food ID or will show an error| Future
+   LR05 | Admin or User when try to view an recent order, but there are no orders made, program will display the message "Previous Order does not exist!"| Implemented
+
