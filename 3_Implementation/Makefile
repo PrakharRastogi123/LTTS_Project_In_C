@@ -2,18 +2,18 @@
 PROJECT_NAME = Food
 TEST_PROJ_NAME = Test_$(PROJECT_NAME)
 # All source code files
-SRC = src\bill.c src\showLogo.c \
-src\foodlist.c src\InsertAtEnd.c src\main.c src\order.c
+SRC = src/bill.c src/showLogo.c \
+src/foodlist.c src/InsertAtEnd.c src/main.c src/order.c
 
 # Output Files
 BUILD = build
 
 # All test source files
 
-TEST_SRC = src\bill.c src\showLogo.c \
-src\foodlist.c src\InsertAtEnd.c src\order.c \
-test\test_Food_Order_Mgmt.c \
-unity\unity.c\
+TEST_SRC = src/bill.c src/showLogo.c \
+src/foodlist.c src/InsertAtEnd.c src/order.c \
+test/test_Food_Order_Mgmt.c \
+unity/unity.c\
 
 ifdef OS
    RM = del /q
