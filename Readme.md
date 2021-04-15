@@ -20,7 +20,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256102` | Prakhar Rastogi  | Feature A, B etc    | X No     | X No   |X No   |X No     
+`256102` | Prakhar Rastogi  | X No    | X No     | X No   |X No   |X No     
 
 
 ## Challenges Faced and How Was It Overcome
