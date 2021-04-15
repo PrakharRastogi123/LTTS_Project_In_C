@@ -25,10 +25,10 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+1. Problem of containing all the information of the food item in single entity was overcomed by using structures.
+2. Add, update of food items in the food order list of user was done with the help of Linked List Data Structure.
+3. For better containtment of project files and easy access of the souce code, multifile approach has been used.
+4. Difficulty to run project on command prompt was overcomed by simple use of makefile.
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
