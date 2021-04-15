@@ -69,6 +69,8 @@ coverageCheck:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD)/$(TEST_PROJ_NAME).$(EXEC))
 	./$(TEST_OUTPUT)
 
+cppcheck:
+	cppcheck --enable=all $(SRC) main.c
 
 # Create new build folder if not present
 $(BUILD):
