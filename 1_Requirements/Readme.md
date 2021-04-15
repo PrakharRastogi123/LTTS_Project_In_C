@@ -115,5 +115,5 @@ Delete an food item: Time Complexity: O(1)
    LR02 | During Login using Admin username and password opens admin panel| Implemented
    LR03 | Pointer accessing linked list gets the NULL value, program will show null value error before performing any functions on that pointer | Implemented
    LR04 | Putting wrong food ID to add in the order, will correct that food ID or will show an error| Future
-   LR05 | Admin or User when try to view an recent order, but there are no orders made, program will display the message "Previous Order does not exist!"| Implemented
+   LR05 | Admin or User when try to view an recent order, but there are no orders made, program will display the message "Previous Order does not exist!" | Implemented
 
