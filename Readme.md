@@ -17,11 +17,24 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 
 ## Contributors List and Summary
-
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256102` | Prakhar Rastogi  | X No    | X No     | X No   |X No   |X No     
+`256102` | Prakhar Rastogi  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08, F_09 ,F_10,F_11  | -     | -   |6  |6     
+   
 
+| Feature Id | Feature |
+| -----------|---------|
+|F_01| User Registeration |
+|F_02| User Login |
+|F_03| Admin Login using username as admin and password as admin123 |
+|F_04| View Menu and choose category as snacks, main-course, and dessert |
+|F_05| View recent order |
+|F_06| Add items from snacks , maincourse and dessert|
+|F_07| Get total amount to pay using get_bill functionality or edit your order before order conformation  |
+|F_08| Logout |
+|F_09| Admin Menu |
+|F_10| Admin can view recent order |
+|F_11| Admin can add new item in food menu |
 
 ## Challenges Faced and How Was It Overcome
 
