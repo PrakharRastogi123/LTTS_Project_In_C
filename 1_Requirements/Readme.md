@@ -32,11 +32,11 @@ Even if a dining room is at 100-percent capacity, food order management allows u
 **Space Complexity:** It is the total memory space required by the program for its execution.
 
 **Features and Cost:**
-Since we are using singly linked list data structure, so the space complexity is O(n)
-Search an food item: Time Complexity: O(n)
-Access an food item: Time Complexity: O(n)
-Insert an food item: Time Complexity: O(1)
-Delete an food item: Time Complexity: O(1)
+* Since we are using singly linked list data structure, so the space complexity is O(n)
+* Search an food item: Time Complexity: O(n)
+* Access an food item: Time Complexity: O(n)
+* Insert an food item: Time Complexity: O(1)
+* Delete an food item: Time Complexity: O(1)
 
 ### Cost And Features On The Basis Of Market System:
 * Applying the up-to-date technologies is required for such functionalities as simple registration, placing the order, various payment options, delivery time estimation, order tracker, reviews and rates, attractive design and the great search engine. The average development cost to create a food ordering application of medium complexity could be $50 000.
