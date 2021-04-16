@@ -2,7 +2,13 @@
 
 void cls()
 {
-    system("cls");
+    #ifdef _WIN32 //for windows 32 bit
+        system("cls");
+    #elif _WIN64  // for windows 64 bit
+        system("cls");
+    #elif __linux__//for linux
+        system("clear");
+    #endif
 }
 
 void main()
@@ -48,17 +54,9 @@ mainscr: printf("\n\nWelcome! Please Enter Your Choice: 1. Login 2.New User 3.Ex
             scanf("%s", uid1);
             printf(" \n\n                  ENTER PASSWORD:-");
             i=0;
-            while(i<20)
-            {
-                pwd1[i]=getc;
-                c=pwd1[i];
-                if(c=='\r') break;
-                else printf("*");
-                i++;
-            }
-            pwd1[i]='\0';
+            scanf("%s", pwd1);
             printf("\n\n            Registered Successfully!\n");
-            sleep(2000);
+            sleep(1);
         }
         else
         {
@@ -69,20 +67,12 @@ mainscr: printf("\n\nWelcome! Please Enter Your Choice: 1. Login 2.New User 3.Ex
             scanf("%s", uid);
             printf(" \n\n                  ENTER PASSWORD:-");
             c=' '; i=0;
-            while(i<20)
-            {
-                pwd[i]=getc;
-                c=pwd[i];
-                if(c=='\r') break;
-                else printf("*");
-                i++;
-            }
-            pwd[i]='\0';
+            scanf("%s", pwd);
             //USERMENU
             if(strcmp(uid,uid1)==0&&strcmp(pwd,pwd1)==0)
             {
                 printf("\n\n            LOGIN SUCCESFULL!");
-                sleep(2000);
+                sleep(1);
                 cls();
                 int i, ch;
       mainmenu: printf("Please Enter Your choice: 1.View Menu 2.View Previous Order 3.Log Out\n");
@@ -92,7 +82,7 @@ mainscr: printf("\n\nWelcome! Please Enter Your Choice: 1. Login 2.New User 3.Ex
                     if(o.start==NULL)
                     {
                         printf("Previous Order does not exist!\n");
-                        sleep(2000);
+                        sleep(1);
                         cls();
                         goto mainmenu;
                     }
@@ -190,7 +180,7 @@ mainscr: printf("\n\nWelcome! Please Enter Your Choice: 1. Login 2.New User 3.Ex
             else if(strcmp(uid,"admin")==0&&strcmp(pwd,"admin123")==0)
             {
                 printf("\n\n            WELCOME ADMIN");
-                sleep(3000);
+                sleep(2);
                 cls();
                 int adch;
         admin:  printf("\n\n            Enter Choice:\n");
@@ -207,10 +197,10 @@ mainscr: printf("\n\nWelcome! Please Enter Your Choice: 1. Login 2.New User 3.Ex
                     case 1:cls();
                         printf("\nSNACKS:\n");
                         foodlist(&s);
-                        sleep(3000);
+                        sleep(2);
                         printf("\nMAIN COURSE:\n");
                         foodlist(&m);
-                        sleep(3000);
+                        sleep(2);
                         printf("\nDESSERT:\n");
                         foodlist(&d);
                         printf("\nPress 0 to continue.\n");
@@ -283,7 +273,7 @@ mainscr: printf("\n\nWelcome! Please Enter Your Choice: 1. Login 2.New User 3.Ex
             else
             {
                 printf("\n\n        INCORRECT USERNAME OR PASSWORD");
-                sleep(2000);
+                sleep(1);
             }
     }
 }
