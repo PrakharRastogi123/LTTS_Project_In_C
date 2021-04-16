@@ -1,4 +1,4 @@
-### Front User Interface Main Screen
+### Main Screen Interface
 ![alt text](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/Output%20Screen%20Shots/output_ss%20(1).png)
 ### New User Registeration
 ![alt text](https://github.com/PrakharRastogi123/LTTS_Project_In_C/blob/main/Output%20Screen%20Shots/output_ss%20(2).png)
